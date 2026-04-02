@@ -17,7 +17,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    justify-content: center;
+    padding: 16px;
     overflow-x: hidden;
   }
 
@@ -37,7 +38,7 @@
   }
 
   .title {
-    font-size: 10px;
+    font-size: 18px;
     color: #ff4400;
     text-shadow: 0 0 10px #ff4400, 0 0 20px #ff4400;
     letter-spacing: 4px;
@@ -46,10 +47,10 @@
   }
 
   .subtitle {
-    font-size: 6px;
+    font-size: 10px;
     color: #ffaa00;
     letter-spacing: 6px;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
     text-shadow: 0 0 8px #ffaa00;
   }
 
@@ -63,26 +64,26 @@
 
   .board {
     width: 100%;
-    max-width: 480px;
+    max-width: 700px;
     border: 2px solid #ff4400;
     box-shadow: 0 0 20px #ff440055, inset 0 0 20px #ff440011;
   }
 
   .board-header {
     display: grid;
-    grid-template-columns: 40px 1fr 1fr;
-    padding: 8px 12px;
+    grid-template-columns: 50px 1fr 1fr;
+    padding: 12px 16px;
     background: #ff4400;
     color: #000;
-    font-size: 6px;
+    font-size: 11px;
     letter-spacing: 2px;
   }
 
   .row {
     display: grid;
-    grid-template-columns: 40px 1fr 1fr;
-    padding: 10px 12px;
-    font-size: 6px;
+    grid-template-columns: 50px 1fr 1fr;
+    padding: 14px 16px;
+    font-size: 11px;
     border-bottom: 1px solid #ff440033;
     transition: background 0.2s;
     animation: slideIn 0.3s ease both;
@@ -118,7 +119,7 @@
   .loading {
     padding: 30px;
     text-align: center;
-    font-size: 6px;
+    font-size: 11px;
     color: #ff4400;
     animation: blink 1s infinite;
   }
@@ -131,22 +132,22 @@
   .error {
     padding: 20px;
     text-align: center;
-    font-size: 6px;
+    font-size: 11px;
     color: #ff0000;
   }
 
-  .updated {
-    font-size: 5px;
-    color: #444;
-    margin-top: 12px;
-    letter-spacing: 1px;
-  }
-
   .pixel-deco {
-    font-size: 8px;
+    font-size: 12px;
     color: #ff4400;
     margin: 4px 0;
     opacity: 0.6;
+  }
+
+  .updated {
+    font-size: 9px;
+    color: #444;
+    margin-top: 12px;
+    letter-spacing: 1px;
   }
 </style>
 </head>
